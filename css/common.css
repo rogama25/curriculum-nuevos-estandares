@@ -44,7 +44,8 @@ html {
 .mainImg {
     border-radius: 100%;
     object-fit: contain;
-    height: 50vh;
+    max-height: 50vh;
+    max-width: 42.5vw;
 }
 
 * {
@@ -155,3 +156,7 @@ li:not(:last-child) {
 a {
     color: grey;
 }
+
+ul.grid4, ul.grid2, ul.horizontal {
+    padding: 0;
+}   

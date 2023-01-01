@@ -1,0 +1,10 @@
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    body>div>div>div {
+        padding: 0 5%;
+    }
+
+    .modal>div {
+        width: 90%;
+        height: 90%;
+    }
+}

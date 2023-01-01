@@ -1,0 +1,35 @@
+@media screen and (max-width: 480px) {
+    body>div>div>div {
+        padding: 0 5%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2.5px 7.5px;
+        height: 90vh;
+        margin: 7.5% 2.5%;
+        scroll-snap-align: center;
+        padding: 10%;
+    }
+
+    body>div>div {
+        box-shadow: none;
+        height: 100%;
+        grid-template-columns: 1fr;
+        margin: 0;
+        scroll-snap-align: none;
+    }
+
+    body>div {
+        height: 100%
+    }
+
+    .modal>div>div {
+        box-shadow: none;
+    }
+
+    body {
+        font-size: 80%;
+    }
+
+        .modal>div {
+            width: 90%;
+            height: 90%;
+        }
+}
