@@ -27,3 +27,15 @@
         opacity: 0;
     }
 }
+
+.grid2 img:hover {
+    transform: scale(1.1);
+}
+
+.grid2 img, .grid4 img {
+    transition: transform 0.5s ease-in-out;
+}
+
+.grid4 img:hover {
+    transform: scale(1.5);
+}

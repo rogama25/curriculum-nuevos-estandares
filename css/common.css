@@ -38,6 +38,7 @@ body>div>div>div {
 
 html {
     scroll-snap-type: y mandatory;
+    scrollbar-gutter: stable;
 }
 
 .mainImg {
@@ -90,7 +91,7 @@ li:not(:last-child) {
     justify-content: center;
     background-color: white;
     flex-direction: column;
-    padding: 5%;
+    padding: 7.5%;
 }
 
 .modal > div > iframe {
@@ -114,28 +115,41 @@ li:not(:last-child) {
     text-align: center;
 }
 
-.grid {
+.grid4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     justify-content: center;
 }
 
-.grid img {
+.grid4 img {
     width: 48px;
     height: 48px;
 }
 
-.grid li {
+.grid4 li, .grid2 li {
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: center;
 }
 
-.grid li:last-child {
+.grid4 li:last-child {
     justify-self: center;
     grid-column-start: span 4;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.grid2 img {
+    width: 100%;
+    height: auto;
 }
 
 a {
