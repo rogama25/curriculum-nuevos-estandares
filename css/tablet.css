@@ -2,10 +2,10 @@
     body>div>div>div {
         padding: 0 5%;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-            height: 90vh;
-            margin: 5%;
-            scroll-snap-align: center;
-            padding: 10%;
+        height: 90vh;
+        margin: 5%;
+        scroll-snap-align: center;
+        padding: 10%;
     }
 
     body>div>div {
@@ -24,8 +24,8 @@
         box-shadow: none;
     }
 
-        .modal>div {
-            width: 90%;
-            height: 90%;
-        }
+    .modal>div {
+        width: 90%;
+        height: 90%;
+    }
 }

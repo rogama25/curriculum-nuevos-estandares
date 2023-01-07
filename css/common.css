@@ -159,4 +159,10 @@ a {
 
 ul.grid4, ul.grid2, ul.horizontal {
     padding: 0;
-}   
+}
+
+@media screen and (max-height: 800px) {
+    .modal > div {
+        height: 90%;
+    }
+}
