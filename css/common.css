@@ -110,7 +110,8 @@ li:not(:last-child) {
 
 .horizontal > li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     vertical-align: top;
     font-size: 11px;
     text-align: center;
